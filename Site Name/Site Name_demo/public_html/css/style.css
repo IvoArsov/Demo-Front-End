@@ -1,0 +1,211 @@
+/* 
+    Created on : 2015-5-16, 15:20:55
+    Author     : ivo
+*/
+/*RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*END OF RESET*/
+body {
+    background-image :url('../images/patern.jpg');
+}
+#wrapper {
+    padding: 100px 238px 100px 225px;    
+}
+/*HEADER*/
+#header {
+    background-color:#fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#header img {
+    padding: 20px 0 20px 10px;
+}
+#header li {
+    display: inline-block;
+    padding-top: 35px;
+}
+#header a {
+    text-decoration: none;
+    color:#787878;
+    font-family: verdana , sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+#header a:hover {
+    color:#6dc5dd;
+}
+/*END OF HEADER*/
+/*MAIN IMAGE*/
+.main_image {
+    float:left;
+}
+.main_image .btn-danger {
+display:block;
+margin-left: 580px;
+margin-top: -150px;
+font-family: verdana , sans-serif;
+}
+
+/*END OF MAIN IMAGE*/
+/*ABOUT*/
+.about {
+    background-color:#6dc5dd;
+    font-family: verdana , sans-serif;
+    color:#fff;
+}
+.about-img {
+    padding: 60px 10px 0 30px;
+}
+.about-text {
+    padding: 60px 10px 0 50px;
+}
+.about-text h3 {
+    font-weight: bold;
+}
+.about-text a {
+    color:#fff;
+    text-decoration: none;
+    margin-top: 15px;
+}
+/*END OF ABOUT*/
+/*CONTENT*/
+#content {
+    background-color:#fff;
+}
+.content-img {
+    padding: 20px;
+}
+.content-text {
+    padding: 25px;
+    font-family:verdana,sans-serif;
+    color:#8c9193;
+}
+.content-text a {
+    text-decoration:none;
+}
+.content-text h2 {
+    color:#003d48;
+    font-weight: bold;
+    font-size:16pt;
+}
+.btn-danger {
+    padding:10px;
+    background-color:#f77462;
+    border-radius: 5px;
+}
+.about-company {
+    background-color: #ececec;
+    border-radius: 5px;
+    font-family: verdana,sans-serif;
+    margin-top:30px;
+}
+.about-company h2 {
+    font-weight: bold;
+    padding: 20px;
+}
+.about-company p {
+    padding: 20px;
+    color:#8c9193;
+}
+.content-red {
+    background-color: #f77462;
+    color:#fff;
+    font-family: verdana,sans-serif;
+}
+.content-red h3 {
+    font-weight: bold;
+    font-size: 16pt;
+}
+.under-red {
+    font-family: verdana, sans-serif;
+}
+.under-red h2 {
+    font-weight: bold;
+    font-size: 20pt;
+}
+.under-red p {
+    color:#86cde2;
+}
+.comments {
+    font-family: verdana,sans-serif;
+    font-size:10pt;
+}
+.comments h3 {
+    font-weight: bold;
+}
+.comments span {
+    color:#f77462;
+}
+.comments-r {
+    background-color: #ececec;
+    padding: 20px;
+    border-radius: 5px;
+}
+/*END OF CONTENT*/
+/*FOOTER*/
+#footer {
+    background-color: #6dc5dd;
+    font-family: verdana,sans-serif;
+    color:#fff;
+}
+.footer-up {
+    padding: 50px;
+}
+.footer-up h3 {
+    font-weight: bold;
+    font-size:14pt;
+}
+.mailto {
+    padding:30px;
+}
+.mailto a {
+    text-decoration: none;
+    font-weight: bold;
+    color:#f77462;
+}
+#footer {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

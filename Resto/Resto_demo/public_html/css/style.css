@@ -1,0 +1,169 @@
+
+/* 
+    Created on : 2015-4-16, 15:35:21
+    Author     : ivo
+*/
+/*RESETS*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+        font-family: verdana , sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*END OF RESET*/
+/*START OF NAVBAR*/
+#header {
+    width:100%;
+    height:110px;
+}
+.company-logo {
+    float:left;
+    margin:40px 15% 40px 15%;
+}
+.navbar {
+    float:left;
+    margin:0 15% 0 45%;
+    position: absolute;
+    top:40px;
+}
+#header li {
+    display: inline;
+}
+#header li a {
+    color:#000;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 15px 0 35px;
+}
+/*END OF NAVBAR*/
+/*START OF MAIN IMAGE*/
+#mainImage img {
+    margin-left:5%;
+}
+.menu-picture {
+    border-bottom: 4px solid #f34949;
+}
+.main-menu {
+    margin-top:-2px;
+    margin-left:40%;
+}
+/*END OF MAIN IMAGE*/
+/*START OF CONTENT/WRAPPER*/
+#wrapper {
+    margin-left:15%;
+}
+.p-silver {
+    color:#b7b7b7;
+    font-size:10pt;
+    font-style: italic;
+}
+.menu-left {
+    float:left;
+}
+.menu-right {
+    float:left;
+    margin-left:100px;
+}
+.load-more {
+    clear: both;
+    font-family: verdana , sans-serif;
+    color:#d7d5d5;   
+    margin:110px 0 0 33%;
+}
+.load-more-btn {
+    border:2px solid #d7d5d5;
+    padding: 12px;
+    width:130px;
+}
+.load-more-btn:hover {
+    color:#d7d5d5; 
+}
+
+#dishes img{
+    clear: both;
+    margin-top: 75px;
+}
+/*START OF GALLERY*/
+#gallery {
+    clear:both;
+    padding-top: 40px;
+}
+#gallery img {
+    width:200px;
+    padding: 5px;
+    border:1px solid #cecece;
+    border-radius: 5px;
+}
+/*END OF GALLERY*/
+/*END OF WRAPPER*/
+/*START OF FOOTER*/
+#footer {
+    background-color: #3b3b3b;
+    color:#fff;
+}
+.footer-left {
+    margin:0 24px 0 15%;
+    padding:100px 0 70px 0;
+    display: inline-block;
+}
+.footer-center-left {
+    display: inline-block;
+    margin-left: 100px;
+}
+.footer-center-right {
+    display: inline-block;
+    margin-left: 100px;
+}
+.footer-center-right a {
+    text-decoration: none;
+    color:#fff;
+    line-height: 2em;
+    font-weight: bold;
+}
+.footer-right {
+    display:inline-block;
+    margin-left: 100px;
+}
+.p-bold {
+    font-weight: bold;
+}  
+/*END OF FOOTER*/
